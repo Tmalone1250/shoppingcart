@@ -242,9 +242,12 @@ const handlePlantsClick = (e) => {
     setShowCart(false); // Hide the cart when navigating to About Us
 };
 
-   const handleContinueShopping = (e) => {
-    e.preventDefault();
-    setShowCart(false);
+const handleContinueShopping = (e) => {
+    onContinueShopping(e);
+  };
+  
+  const handleCheckoutShopping = (e) => {
+    alert('Functionality to be added for future reference');
   };
 
   const [addedToCart, setAddedToCart] = useState({});
