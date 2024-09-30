@@ -1,1 +1,1 @@
-# shoppingcart
+# coding-project-template
